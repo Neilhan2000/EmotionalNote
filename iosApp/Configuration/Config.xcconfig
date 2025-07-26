@@ -1,0 +1,7 @@
+TEAM_ID=
+
+PRODUCT_NAME=EmotionalNote
+PRODUCT_BUNDLE_IDENTIFIER=com.ashley.neil.emotionalnote.EmotionalNote$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
