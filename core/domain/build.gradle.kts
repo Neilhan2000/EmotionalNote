@@ -59,6 +59,8 @@ kotlin {
         commonMain {
             dependencies {
                 implementation(libs.kotlin.stdlib)
+                implementation(project(":core:common"))
+                implementation(project(":core:data"))
                 // Add KMP dependencies here
             }
         }

@@ -59,6 +59,9 @@ kotlin {
         commonMain {
             dependencies {
                 implementation(libs.kotlin.stdlib)
+                implementation(project(":core:common"))
+                implementation(project(":core:ui"))
+                implementation(project(":core:domain"))
                 // Add KMP dependencies here
             }
         }
