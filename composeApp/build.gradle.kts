@@ -35,6 +35,9 @@ kotlin {
             implementation(libs.androidx.activity.compose)
         }
         commonMain.dependencies {
+            implementation(project(":feature:home"))
+            implementation(project(":core:ui"))
+            implementation(project(":core:common"))
             implementation(compose.runtime)
             implementation(compose.foundation)
             implementation(compose.material3)

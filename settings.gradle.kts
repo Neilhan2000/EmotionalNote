@@ -29,3 +29,15 @@ dependencyResolutionManagement {
 }
 
 include(":composeApp")
+include(":core:data")
+include(":core:domain")
+include(":core:ui")
+include(":core:common")
+include(":core:network")
+include(":core:database")
+include(":feature:home")
+include(":feature:note")
+include(":feature:social")
+include(":feature:rewards")
+include(":feature:shop")
+include(":feature:profile")
